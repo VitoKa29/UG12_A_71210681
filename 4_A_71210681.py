@@ -1,6 +1,6 @@
 input = int(input("input: "))
 index = 2
-
+print("Output :")
 for bawah in range (1,input+1):
     for samping in range (1,2*input) :
         if bawah+samping == input+1 or samping-bawah == input-1:
